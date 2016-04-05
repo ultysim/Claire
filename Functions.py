@@ -119,3 +119,10 @@ def bestItems(data,n=15):
             out.append(i[0])
     return out
            
+def itemOrder(orderedOrder,n):
+    out = list()
+    for i in orderedOrder:
+        if i[n] >=0:
+            out.append(i[n])
+    return out
+    
